@@ -3,14 +3,17 @@ package com.banistmo.reto.stepdefinitions;
 
 import com.banistmo.reto.Tasks.FromtheDropList;
 import com.banistmo.reto.Tasks.Navegar;
+import com.banistmo.reto.interactions.ClickCon;
 import com.banistmo.reto.userinterface.OpcionPagina;
 import com.banistmo.reto.userinterface.PaginaPrincipal;
+import com.banistmo.reto.userinterface.PaginaTarifario;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.targets.Target;
@@ -42,15 +45,15 @@ public class TarifarioStepDefinition {
         }
 
         @When("^selecciono el pdf a abrir (.*)$")
-        public void seleccionoElPdfAAbrir(String Opcion) {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
+        public void seleccionoElPdfAAbrir(String Opcion) throws InterruptedException {
+        	Thread.sleep(2000);
+        	theActorInTheSpotlight().attemptsTo(ClickCon.Js(PaginaTarifario.LISTA_PDF));
+        	Thread.sleep(2000);
         }
 
         @Then("^verifica que se abre el pdf$")
         public void verificaQueSeAbreElPdf() {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
+           System.out.println("numero de ventanas "+driver.getWindowHandles().size());
         }
 
       

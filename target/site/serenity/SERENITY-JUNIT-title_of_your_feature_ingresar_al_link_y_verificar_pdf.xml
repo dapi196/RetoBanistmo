@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Title of your feature" skipped="0" tests="1" time="23.83" timestamp="2020-07-13 09:25:14"><testcase name="Ingresar al Link y Verificar Pdf"><error message="Unresolved compilation problem: &#10;&#9;PendingException cannot be resolved to a type&#10;" type="java.lang.Error">Unresolved compilation problem: 
-	PendingException cannot be resolved to a type
-</error><system-err>Unresolved compilation problem: 
-	PendingException cannot be resolved to a type
-
-com.banistmo.reto.stepdefinitions.TarifarioStepDefinition.seleccionoElPdfAAbrir(TarifarioStepDefinition.java:47)
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Title of your feature" skipped="0" tests="1" time="36.94" timestamp="2020-07-13 09:51:10"><testcase name="Ingresar al Link y Verificar Pdf"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'AMAC02VT0D5HV2D', ip: 'fe80:0:0:0:8a4:1e2e:89b8:63f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_171'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMAC02VT0D5HV2D', ip: 'fe80:0:0:0:8a4:1e2e:89b8:63f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMAC02VT0D5HV2D', ip: 'fe80:0:0:0:8a4:1e2e:89b8:63f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+com.banistmo.reto.stepdefinitions.TarifarioStepDefinition.seleccionoElPdfAAbrir(TarifarioStepDefinition.java:49)
 ✽.selecciono el pdf a abrir Tarifas de Cuentas de Depósitos(src/test/resources/features/ingresar_link.feature:11)
 </system-err></testcase></testsuite>
