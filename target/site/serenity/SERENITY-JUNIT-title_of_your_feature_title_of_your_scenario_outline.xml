@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Title of your feature" skipped="0" tests="2" time="16.82" timestamp="2020-07-13 09:12:29"><testcase name="Title of your scenario outline"><error message="Unresolved compilation problem: &#10;&#9;PendingException cannot be resolved to a type&#10;" type="java.lang.Error">Unresolved compilation problem: 
+	PendingException cannot be resolved to a type
+</error><system-err>Unresolved compilation problem: 
+	PendingException cannot be resolved to a type
+
+com.banistmo.reto.stepdefinitions.TarifarioStepDefinition.quieroIngresarAlLinkTarifario(TarifarioStepDefinition.java:46)
+✽.quiero ingresar al link Tarifario(src/test/resources/features/ingresar_link.feature:10)
+</system-err></testcase></testsuite>
